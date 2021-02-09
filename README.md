@@ -1,6 +1,7 @@
 # Note-taking App
 
 <a href="https://github.com/leaderdsn/note-taking" title="logo-app"><img src="src/images/logo-app.jpg" width="250px"></a>
+
 ## Описание
 
     Note-taking - это готовое приложение для создания заметок.
@@ -13,38 +14,37 @@
 
 ## Запуск приложения
 
-    Для того чтобы запустить приложения необходимо:
-        1.  Установить следующие зависимости:
-            - bootstrap,
-            - firebase,
-            - react,
-            - react-bootstrap,
-            - react-color,
-            - react-dom,
-            - react-router-dom,
-            - react-scripts.
+Для того чтобы запустить приложения необходимо:
+1.  Установить следующие зависимости:
+    - bootstrap,
+    - firebase,
+    - react,
+    - react-bootstrap,
+    - react-color,
+    - react-dom,
+    - react-router-dom,
+    - react-scripts.
 
-        2.  Cоздайте проект на [Firebase](https://firebase.google.com/), необходимо настроить аунтефикацию для сохранения пользователей и настроить
-            базу данных для сохранения информации о созданных заметках. Дополнительно ознакомиться с информацией можно в документаци 
-            [Firebase](https://firebase.google.com/docs/web/setup?authuser=0).
+             
+2.  Cоздайте проект на [Firebase](https://firebase.google.com/), необходимо настроить аунтефикацию для сохранения пользователей и настроить
+    базу данных для сохранения информации о созданных заметках. Дополнительно ознакомиться с информацией можно в документаци [Firebase](https://firebase.google.com/docs/web/setup?authuser=0).
 
-        3.  Когда проект на Firebase готов, необходимо инициализировать конфигурацию Firebase, для этого в корне приложения необходимо создать файл `.env.local` и скопировать
-            туда конфигурацию, полученную при создании проекта на Firebase. 
+3.  Когда проект на Firebase готов, необходимо инициализировать конфигурацию Firebase, для этого в корне приложения необходимо создать файл `.env.local` и скопировать
+    туда конфигурацию, полученную при создании проекта на Firebase. 
+    ПРИМЕР СОДЕРЖИМОГО ФАЙЛА `.env.local`:
+        REACT_APP_FIREBASE_API_KEY=AIzaSyDOCAbC123dEf456GhI789jKl01-MnO
+        REACT_APP_FIREBASE_AUTH_DOMAIN=myapp-project-123.firebaseapp.com
+        REACT_APP_FIREBASE_DATABASE_URL=https://myapp-project-123.firebaseio.com
+        REACT_APP_FIREBASE_PROJECT_ID=myapp-project-123
+        REACT_APP_FIREBASE_STORAGE_BUCKET=myapp-project-123.appspot.com
+        REACT_APP_FIREBASE_MESSAGING_SENDER_ID=65211879809
+        REACT_APP_FIREBASE_APP_ID=1:65211879909:web:3ae38ef1cdcb2e01fe5f0c
 
-            ПРИМЕР СОДЕРЖИМОГО ФАЙЛА `.env.local`:
-                REACT_APP_FIREBASE_API_KEY=AIzaSyDOCAbC123dEf456GhI789jKl01-MnO
-                REACT_APP_FIREBASE_AUTH_DOMAIN=myapp-project-123.firebaseapp.com
-                REACT_APP_FIREBASE_DATABASE_URL=https://myapp-project-123.firebaseio.com
-                REACT_APP_FIREBASE_PROJECT_ID=myapp-project-123
-                REACT_APP_FIREBASE_STORAGE_BUCKET=myapp-project-123.appspot.com
-                REACT_APP_FIREBASE_MESSAGING_SENDER_ID=65211879809
-                REACT_APP_FIREBASE_APP_ID=1:65211879909:web:3ae38ef1cdcb2e01fe5f0c
+    Всё что указанно после знака `=` это пример значений вашей конфигурации.
 
-            Всё что указанно после знака `=` это пример значений вашей конфигурации.
-
-        4. Для запуска приложения использовать команду `npm start`
+4.  Для запуска приложения использовать команду `npm start`
 
 ## Изображение приложения
 
-   <a href="#" title="screenshot-app"><img src="src/images/screenshot-app.jpg" width="600px"></a>
+  ![screenshot-app](src/images/screenshot-app.jpg)
 
