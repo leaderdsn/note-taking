@@ -1,0 +1,60 @@
+.form-note-add {
+    width: 100%;
+    height: auto;
+    border: 1px color red
+}
+
+.btn-note-add {
+    border: none;
+    margin: 0px;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    padding: 8px 24px;
+    font-size: 1.5rem;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    background-color: #019875;
+    color: #fff;
+    transition: 0.2s ease-out;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.note-textarea {
+    height: 100px;
+    resize: none;
+}
+
+.btn-note-add:hover {
+    background-color: #02BA85;
+    color: #fff;
+    transition: 0.2s ease-out;
+}
+
+.select-color-note {
+    background-color: #fe5;
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.circle-color-palette {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dde;
+    border-radius: 4px;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.search-group {
+    width: 100%;
+}
+
+.note-body-error,
+.note-title-error {
+    color: tomato
+}

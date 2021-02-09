@@ -1,0 +1,51 @@
+.navbar {
+    height: auto;
+    z-index: 99 !important;
+}
+
+.logo {
+    display: inline-flex;
+    width: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-title {
+    display: inline-flex;
+    font-size: 1.5rem;
+    color: #444141;
+}
+
+.nav-container {
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.profile-info {
+    color: '#007bff'
+}
+
+#basic-navbar-nav1 {
+    height: 100px;
+}
+
+.container-profile {
+    height: 40px !important;
+}
+
+.alert-error {
+    z-index: 100;
+    height: auto;
+    width: auto;
+    visibility: visible;
+}
+
+.spinner-conteiner {
+    width: 200px;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    margin: auto auto
+}

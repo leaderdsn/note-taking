@@ -1,0 +1,29 @@
+.btn-note-add {
+    border: none;
+    margin: 0px;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    padding: 8px 24px;
+    font-size: 1.5rem;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    background-color: #019875;
+    color: #fff;
+    transition: 0.2s ease-out;
+}
+
+.btn-note-add:hover {
+    background-color: #02BA85;
+    color: #fff;
+    transition: 0.2s ease-out;
+}
+
+.date-created-info {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.time-elapsed-info {
+    font-size: 0.8rem;
+    margin: 0;
+}

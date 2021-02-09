@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Note-taking App
+## Описание
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Note-taking - это готовое приложение для создания заметок.
+    Для того чтобы создавать заметки необходимо пройти регитсрацию в приложении.
+    Приложение позваляет обновить как логин так и пароль. В случае утери пароля, его можно востановить.
+    Любой зарегистрированный пользователь может просматривать не только свои заметки, но и заметки других пользователей.
+    Заметке можно задать "Заголовок", "Контент" и "Цвет". 
+    В нижней части заметки отображается дата создания и время прошедшее с даты создания.
+    Есть фильтр для поиска заметки по заголовку.
 
-## Available Scripts
+## Запуск приложения
 
-In the project directory, you can run:
+    Для того чтобы запустить приложения необходимо:
+        1.  Установить следующие зависимости:
+            - bootstrap,
+            - firebase,
+            - react,
+            - react-bootstrap,
+            - react-color,
+            - react-dom,
+            - react-router-dom,
+            - react-scripts.
 
-### `npm start`
+        2.  Cоздайте проект на Firebase (https://firebase.google.com/), необходимо настроить аунтефикацию для сохранения пользователей и настроить
+            базу данных для сохранения информации о созданных заметках. Дополнительно ознакомиться с информацией можно здесь (https://firebase.google.com/docs/web/setup?authuser=0).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+        3.  Когда проект на Firebase готов, необходимо инициализировать конфигурацию Firebase, для этого в корне приложения необходимо создать файл ".env.local" и скопировать
+            туда конфигурацию, полученную при создании проекта на Firebase. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+            ПРИМЕР СОДЕРЖИМОГО ФАЙЛА ".env.local":
+                REACT_APP_FIREBASE_API_KEY=AIzaSyDOCAbC123dEf456GhI789jKl01-MnO
+                REACT_APP_FIREBASE_AUTH_DOMAIN=myapp-project-123.firebaseapp.com
+                REACT_APP_FIREBASE_DATABASE_URL=https://myapp-project-123.firebaseio.com
+                REACT_APP_FIREBASE_PROJECT_ID=myapp-project-123
+                REACT_APP_FIREBASE_STORAGE_BUCKET=myapp-project-123.appspot.com
+                REACT_APP_FIREBASE_MESSAGING_SENDER_ID=65211879809
+                REACT_APP_FIREBASE_APP_ID=1:65211879909:web:3ae38ef1cdcb2e01fe5f0c
 
-### `npm test`
+            Всё что указанно после знака "=" это пример значений вашей конфигурации.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        4. Для запуска приложения использовать команду "npm start"
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
