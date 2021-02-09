@@ -44,7 +44,3 @@
 
 4.  Для запуска приложения использовать команду `npm start`
 
-## Изображение приложения
-
-  ![screenshot-app](src/images/screenshot-app.jpg)
-
