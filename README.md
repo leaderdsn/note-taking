@@ -46,5 +46,5 @@
 
 ## Изображение приложения
 
-   <a href="https://github.com/leaderdsn/note-taking" title="screenshot-app"> <img src="src/images/screenshot-app.jpg" width="800px"></a>
+   <a href="#" title="screenshot-app"><img src="src/images/screenshot-app.jpg" width="600px"></a>
 
