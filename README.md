@@ -1,6 +1,6 @@
 # Note-taking App
 
-![logotype-app](src/images/logo-app.jpg)
+<a href="https://github.com/leaderdsn/note-taking" title="logo-app"><img src="src/images/logo-app.jpg" width="200px"></a>
 ## Описание
 
     Note-taking - это готовое приложение для создания заметок.
@@ -46,5 +46,5 @@
 
 ## Изображение приложения
 
-    <img src="src/images/logo-app.jpg" width="800px" height="600px">
+   <a href="https://github.com/leaderdsn/note-taking" title="screenshot-app"> <img src="src/images/screenshot-app.jpg" width="800px"></a>
 
