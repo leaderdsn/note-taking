@@ -1,4 +1,6 @@
 # Note-taking App
+
+![logotype-app](src/images/logo-app.jpg)
 ## Описание
 
     Note-taking - это готовое приложение для создания заметок.
