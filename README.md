@@ -31,14 +31,16 @@
 
 3.  Когда проект на Firebase готов, необходимо инициализировать конфигурацию Firebase, для этого в корне приложения необходимо создать файл `.env.local` и скопировать
     туда конфигурацию, полученную при создании проекта на Firebase. 
+
     ПРИМЕР СОДЕРЖИМОГО ФАЙЛА `.env.local`:
-        REACT_APP_FIREBASE_API_KEY=AIzaSyDOCAbC123dEf456GhI789jKl01-MnO
-        REACT_APP_FIREBASE_AUTH_DOMAIN=myapp-project-123.firebaseapp.com
-        REACT_APP_FIREBASE_DATABASE_URL=https://myapp-project-123.firebaseio.com
-        REACT_APP_FIREBASE_PROJECT_ID=myapp-project-123
-        REACT_APP_FIREBASE_STORAGE_BUCKET=myapp-project-123.appspot.com
-        REACT_APP_FIREBASE_MESSAGING_SENDER_ID=65211879809
-        REACT_APP_FIREBASE_APP_ID=1:65211879909:web:3ae38ef1cdcb2e01fe5f0c
+    
+    REACT_APP_FIREBASE_API_KEY=AIzaSyDOCAbC123dEf456GhI789jKl01-MnO
+    REACT_APP_FIREBASE_AUTH_DOMAIN=myapp-project-123.firebaseapp.com
+    REACT_APP_FIREBASE_DATABASE_URL=https://myapp-project-123.firebaseio.com
+    REACT_APP_FIREBASE_PROJECT_ID=myapp-project-123
+    REACT_APP_FIREBASE_STORAGE_BUCKET=myapp-project-123.appspot.com
+    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=65211879809
+    REACT_APP_FIREBASE_APP_ID=1:65211879909:web:3ae38ef1cdcb2e01fe5f0c
 
     Всё что указанно после знака `=` это пример значений вашей конфигурации.
 
