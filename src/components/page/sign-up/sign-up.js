@@ -22,7 +22,7 @@ export default function SignUp() {
             setError("")
             setLoading(true)
             await signup(emailRef.current.value, passwordRef.current.value)
-            history.push(RoutesEnum.DASHBOARD)
+            history.push(RoutesEnum.LOGIN)
         } catch {
             setError("Failed to create an account")
         }
